@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Login — MLM PRO</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <h2>Login (by phone)</h2>
+    <p>Enter your phone number (the one used at registration).</p>
+    <input id="phone" class="field" placeholder="Phone"/>
+    <button id="btnLogin" class="btn" onclick="login()">Login</button>
+    <div id="result" class="result"></div>
+    <div style="margin-top:12px"><a href="index.html" class="btn ghost">Back</a> <a href="register.html" class="btn ghost">Register</a></div>
+  </div>
+</div>
+<script src="firebase.js"></script>
+<script src="login.js"></script>
+</body>
+</html>
